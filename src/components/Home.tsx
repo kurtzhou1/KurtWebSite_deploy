@@ -18,7 +18,7 @@ const Home:React.FC = () => {
 
     return (
         <div className="home">
-            <div>HI！我是Kurt&nbsp;&nbsp;&nbsp;黑黑！！</div>
+            <div>HI，我是Kurt&nbsp;&nbsp;Zhou！！</div>
             <div className="homeBanner" onClick={()=>{scrollToAnchor('PROJECT')}}>
                 <div className="homeBannerInner">作品集</div>
             </div>
