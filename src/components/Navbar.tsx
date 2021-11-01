@@ -20,7 +20,7 @@ const Navbar:React.FC = () => {
         <div className="navbar">
             <div onClick={()=>{scrollToAnchor('HOME')}}>HOME</div>
             <div onClick={()=>{scrollToAnchor('ABOUT')}}>ABOUT</div>
-            <div onClick={()=>{scrollToAnchor('PORTFOLIO')}}>PORTFOLIO</div>
+            {/* <div onClick={()=>{scrollToAnchor('PORTFOLIO')}}>PORTFOLIO</div> */}
             <div onClick={()=>{scrollToAnchor('PROJECT')}}>PROJECT</div>
         </div>
     );

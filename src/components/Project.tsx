@@ -25,7 +25,7 @@ const Project:React.FC = () => {
                 </div>
                 <div className="detail"></div>
                 <div className="button">
-                    <div><a href="https://github.com/kurtzhou1/Pomodoro_deploy">DEMO</a></div>
+                    <div><a href="https://kurtzhou1.github.io/Pomodoro_deploy/">DEMO</a></div>
                     <div><a href="https://github.com/kurtzhou1/Pomodoro">Github</a></div>
                 </div>
             </div>
