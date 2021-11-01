@@ -40,6 +40,7 @@ header{
 .home{
   @include page;
   background-image: url(./img/sea.jpg);
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
