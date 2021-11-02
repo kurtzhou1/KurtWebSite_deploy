@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KurtWebSite_deploy/static/css/main.da215f19.chunk.css",
-    "main.js": "/KurtWebSite_deploy/static/js/main.9a671504.chunk.js",
-    "main.js.map": "/KurtWebSite_deploy/static/js/main.9a671504.chunk.js.map",
+    "main.js": "/KurtWebSite_deploy/static/js/main.973cb39e.chunk.js",
+    "main.js.map": "/KurtWebSite_deploy/static/js/main.973cb39e.chunk.js.map",
     "runtime-main.js": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js",
     "runtime-main.js.map": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js.map",
     "static/js/2.3db97c47.chunk.js": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.83109479.js",
     "static/js/2.3db97c47.chunk.js",
     "static/css/main.da215f19.chunk.css",
-    "static/js/main.9a671504.chunk.js"
+    "static/js/main.973cb39e.chunk.js"
   ]
 }
