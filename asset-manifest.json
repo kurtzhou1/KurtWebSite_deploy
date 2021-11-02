@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/KurtWebSite_deploy/static/css/main.da215f19.chunk.css",
-    "main.js": "/KurtWebSite_deploy/static/js/main.973cb39e.chunk.js",
-    "main.js.map": "/KurtWebSite_deploy/static/js/main.973cb39e.chunk.js.map",
+    "main.css": "/KurtWebSite_deploy/static/css/main.cad468bf.chunk.css",
+    "main.js": "/KurtWebSite_deploy/static/js/main.752d1198.chunk.js",
+    "main.js.map": "/KurtWebSite_deploy/static/js/main.752d1198.chunk.js.map",
     "runtime-main.js": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js",
     "runtime-main.js.map": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js.map",
     "static/js/2.3db97c47.chunk.js": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js",
     "static/js/2.3db97c47.chunk.js.map": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js.map",
     "index.html": "/KurtWebSite_deploy/index.html",
-    "static/css/main.da215f19.chunk.css.map": "/KurtWebSite_deploy/static/css/main.da215f19.chunk.css.map",
+    "static/css/main.cad468bf.chunk.css.map": "/KurtWebSite_deploy/static/css/main.cad468bf.chunk.css.map",
     "static/js/2.3db97c47.chunk.js.LICENSE.txt": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/KurtWebSite_deploy/static/media/sea.f03cafa9.jpg",
     "static/media/youtube.d6a925bd.jpg": "/KurtWebSite_deploy/static/media/youtube.d6a925bd.jpg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.83109479.js",
     "static/js/2.3db97c47.chunk.js",
-    "static/css/main.da215f19.chunk.css",
-    "static/js/main.973cb39e.chunk.js"
+    "static/css/main.cad468bf.chunk.css",
+    "static/js/main.752d1198.chunk.js"
   ]
 }
