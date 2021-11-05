@@ -6,7 +6,7 @@ const About:React.FC = () => {
         <div className="about">
             <div className="info">
                 <div className="me"></div>
-                <div className="me2">一個喜歡在山與海之中規劃旅遊擔任嚮導的工程師。</div>
+                <div className="me2">一個喜歡在山海中規劃旅途擔任嚮導的工程師。</div>
             </div>
             <div className="infoDetail">
                 擔任過系統工程師、專案經理、前端工程師，目前擔任程式分析師，負責前端居多，

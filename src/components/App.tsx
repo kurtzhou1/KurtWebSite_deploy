@@ -12,7 +12,7 @@ const Containers:React.FC = (props) => {
             <header><Navbar /></header>
             <section id="HOME"><Home/></section>
             <section id="ABOUT"><About/></section>
-            {/* <section id="PORTFOLIO"><Portfolio /></section> */}
+            <section id="PORTFOLIO"><Portfolio /></section>
             <section id="PROJECT"><Project /></section>
         </div>
     );
