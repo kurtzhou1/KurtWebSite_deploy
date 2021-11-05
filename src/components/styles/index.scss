@@ -119,14 +119,17 @@ header{
 
 .portfolio{
   @include page;
-  background-color: #90A4AE;
+  // background-color: #90A4AE;
+  background-image: url(../../img/Mountain.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
   .portfolioContainer{
     width: 100%;
     display: flex;
     flex-direction: column;
     >div{
-      background-color: #CFD8DC;
+      background-color: #ECEFF1;
       padding: 10px;
       border-radius: 0.2rem;
       color: #546E7A;
@@ -148,6 +151,8 @@ header{
     }
     .content{
       font-size: 1rem;
+      color: #78909C;
+      font-weight: bold;
       @include forDesktop(){
         font-size: 1.5rem;
       }
