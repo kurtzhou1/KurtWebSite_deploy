@@ -29,7 +29,7 @@ const Portfolio:React.FC = () => {
                 <div>
                     <h4 className="title">其他</h4>
                     <ul className="content">
-                        <li>擁有Microsoft Azure證照 - Microsoft Azure Developer Associate</li>
+                        <li>Microsoft Azure證照 - Microsoft Azure Developer Associate</li>
                         <li>職業安全證照</li>
                         <li>急救人員證照</li>
                         <li>專案管理經驗</li>
