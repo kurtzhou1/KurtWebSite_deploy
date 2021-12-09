@@ -1,219 +1,228 @@
 @mixin page {
-  min-height: 100vh;
-  min-width: 90vw;
+    min-height: 100vh;
+    min-width: 90vw;
 }
 
-@mixin forDesktop { /* 桌機/平板 */
-  @media screen and (min-Width: 980px) {
-      @content
-  }
-};
+@mixin forDesktop {
+    /* 桌機/平板 */
+    @media screen and (min-width: 980px) {
+        @content;
+    }
+}
 
 body {
-  margin: 0;
-  font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;
-  a{
-    text-decoration:none;
-    color: #CFD8DC;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-header{
-  position: sticky;
-  top: 0;
-  left: 0;
-  .navbar{
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 0.5rem;
-    >div{
-      margin: 0 1rem;
-      &:hover{
-        cursor: pointer;
-      }
-    }
-    @include forDesktop(){
-      padding: 1rem;
-    }
-  }
-}
-
-.home{
-  @include page;
-  background-image: url(../../img/sea.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  flex-direction: column;
-  .homeBanner{
-    border: 2.5px solid #212529;
-    border-radius: 0.25rem;
-    padding: 5px;
-    margin-top: 10px;
-    .homeBannerInner{
-      border: 2.5px solid #212529;
-      border-radius: 0.25rem;
-      padding: 5px;
-      font-size: 2rem;
-      font-weight: bold;
-    }
-    &:hover{
-      cursor: pointer;
-    }
-  }
-  @include forDesktop(){
-    font-size: 4rem;
-  }
-}
-
-.about{
-  @include page;
-  background-color: #CFD8DC;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .me{
-      width:20rem;
-      height:20rem; //正圓形，所以寬與高都設一樣
-      border-radius:999em;
-      background-image: url(../../img/me.jpg);
-      background-size: cover;
-    }
-    .me2{
-      font-size: 1.5rem;
-      color: #546E7A;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-left: 2.5rem;
-    }
-    @include forDesktop(){
-      flex-direction: row;
-    }
-  }
-  .infoDetail{
-    margin: 2.5rem;
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
-    font-weight: bold;
-  }
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    a {
+        text-decoration: none;
+        color: #cfd8dc;
+        width: 100%;
+        text-align: center;
+    }
 }
 
-.portfolio{
-  @include page;
-  // background-color: #90A4AE;
-  background-image: url(../../img/Mountain.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  .portfolioContainer{
-    width: 100%;
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    .navbar {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 0.5rem;
+        > div {
+            margin: 0 1rem;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        @include forDesktop() {
+            padding: 1rem;
+        }
+    }
+}
+
+.home {
+    @include page;
+    background-image: url(../../img/sea.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+    .homeBanner {
+        border: 2.5px solid #212529;
+        border-radius: 0.25rem;
+        padding: 5px;
+        margin-top: 10px;
+        .homeBannerInner {
+            border: 2.5px solid #212529;
+            border-radius: 0.25rem;
+            padding: 5px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    @include forDesktop() {
+        font-size: 4rem;
+    }
+}
+
+.about {
+    @include page;
+    background-color: #cfd8dc;
     display: flex;
     flex-direction: column;
-    >div{
-      background-color: #ECEFF1;
-      opacity: 0.8;
-      padding: 10px;
-      border-radius: 0.2rem;
-      color: #546E7A;
-      margin: 1rem;
-      @include forDesktop(){
-        width: 40rem;
-        height: 30rem;
-        margin: 0 1rem;
-      }
+    justify-content: center;
+    align-items: center;
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        .me {
+            width: 20rem;
+            height: 20rem; //正圓形，所以寬與高都設一樣
+            border-radius: 999em;
+            background-image: url(../../img/me.jpg);
+            background-size: cover;
+        }
+        .me2 {
+            font-size: 1.5rem;
+            color: #546e7a;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 2.5rem;
+        }
+        @include forDesktop() {
+            flex-direction: row;
+        }
     }
-    .title{
-      font-size: 2rem;
-      font-weight: bold;
-      border-bottom: 3px solid #90A4AE;
-      margin-bottom: 10px;
-      @include forDesktop(){
-        font-size: 3rem;
-      }
+    .infoDetail {
+        margin: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
     }
-    .content{
-      font-size: 1rem;
-      color: #78909C;
-      font-weight: bold;
-      @include forDesktop(){
-        font-size: 1.5rem;
-      }
-    }
-    @include forDesktop(){
-      margin: 1rem;
-      flex-direction: row;
-    }
-  }
-  @include forDesktop(){
-    display: flex;
-  }
 }
 
-.project{
-  @include page;
-  background-color: #546E7A;
-  // padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  >div{
-    width: 20rem;
-    height: 30rem;
-    background-color: #CFD8DC;
-    margin: 2rem;
-    padding: 10px;
-    border-radius: 0.2rem;
-    color: #546E7A;
-    img{
-      width: 100%;
-      height: 35%;
-      &.pomodoro{
-        background-image: url(../../img/Pomodoro.jpg);
-      }
-    }
-    .info{
-      height: 35%;
-    }
-    .button{
-      height: 25%;
-      margin: 5px;
-      display: flex;
-      flex-flow: column;
-      justify-content: space-between;
-      >div{
-        background-color: #546E7A;
+.portfolio {
+    @include page;
+    // background-color: #90A4AE;
+    background-image: url(../../img/Mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    .portfolioContainer {
         width: 100%;
-        height: 40%;
-        border-radius: 0.3rem;
-        color: #CFD8DC;
         display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+        flex-direction: column;
+        > div {
+            background-color: #eceff1;
+            opacity: 0.8;
+            padding: 10px;
+            border-radius: 0.2rem;
+            color: #546e7a;
+            margin: 1rem;
+            @include forDesktop() {
+                width: calc(100% / 3);
+                height: 75%;
+                margin: 0 0.5rem;
+            }
+        }
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            border-bottom: 3px solid #90a4ae;
+            margin-bottom: 10px;
+            @include forDesktop() {
+                font-size: 2.5rem;
+            }
+        }
+        .content {
+            font-size: 1rem;
+            color: #78909c;
+            font-weight: bold;
+            @include forDesktop() {
+                font-size: 1.3rem;
+            }
+        }
+        @include forDesktop() {
+            margin: 1rem;
+            flex-direction: row;
+        }
     }
-  }
-  .projectDetail{
-    .title{
-      font-size: 1.5rem;
-      font-weight: bold;
+    @include forDesktop() {
+        display: flex;
     }
-  }
+}
+
+.project {
+    @include page;
+    background-color: #546e7a;
+    // padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    .projectDetail {
+        width: 100%;
+        height: 25rem;
+        background-color: #cfd8dc;
+        margin: 2rem;
+        padding: 10px;
+        border-radius: 0.2rem;
+        color: #546e7a;
+        box-sizing: border-box;
+        img {
+            width: 100%;
+            height: 40%;
+            &.pomodoro {
+                background-image: url(../../img/Pomodoro.jpg);
+            }
+        }
+        .info {
+            height: 30%;
+        }
+        .button {
+            height: 25%;
+            margin: 5px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            > div {
+                background-color: #546e7a;
+                width: 100%;
+                height: 40%;
+                border-radius: 0.3rem;
+                color: #cfd8dc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        &.special {
+            img {
+                height: 70%;
+            }
+        }
+        @include forDesktop() {
+            width: calc(33.33% - 4rem);
+        }
+    }
 }
