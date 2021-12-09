@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/KurtWebSite_deploy/static/css/main.517e6d3a.chunk.css",
-    "main.js": "/KurtWebSite_deploy/static/js/main.ec532673.chunk.js",
-    "main.js.map": "/KurtWebSite_deploy/static/js/main.ec532673.chunk.js.map",
+    "main.css": "/KurtWebSite_deploy/static/css/main.d9454caa.chunk.css",
+    "main.js": "/KurtWebSite_deploy/static/js/main.f08061ed.chunk.js",
+    "main.js.map": "/KurtWebSite_deploy/static/js/main.f08061ed.chunk.js.map",
     "runtime-main.js": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js",
     "runtime-main.js.map": "/KurtWebSite_deploy/static/js/runtime-main.83109479.js.map",
     "static/js/2.3db97c47.chunk.js": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js",
     "static/js/2.3db97c47.chunk.js.map": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js.map",
     "index.html": "/KurtWebSite_deploy/index.html",
-    "static/css/main.517e6d3a.chunk.css.map": "/KurtWebSite_deploy/static/css/main.517e6d3a.chunk.css.map",
+    "static/css/main.d9454caa.chunk.css.map": "/KurtWebSite_deploy/static/css/main.d9454caa.chunk.css.map",
     "static/js/2.3db97c47.chunk.js.LICENSE.txt": "/KurtWebSite_deploy/static/js/2.3db97c47.chunk.js.LICENSE.txt",
     "static/media/Bingo.51388477.jpg": "/KurtWebSite_deploy/static/media/Bingo.51388477.jpg",
     "static/media/index.scss": "/KurtWebSite_deploy/static/media/sea.f03cafa9.jpg",
+    "static/media/cart.75446f3c.jpg": "/KurtWebSite_deploy/static/media/cart.75446f3c.jpg",
     "static/media/youtube.d6a925bd.jpg": "/KurtWebSite_deploy/static/media/youtube.d6a925bd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.83109479.js",
     "static/js/2.3db97c47.chunk.js",
-    "static/css/main.517e6d3a.chunk.css",
-    "static/js/main.ec532673.chunk.js"
+    "static/css/main.d9454caa.chunk.css",
+    "static/js/main.f08061ed.chunk.js"
   ]
 }
